@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:#11114e; text-decoration: none;}
+.bar {
+    background-color: #11114e;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "inter", "sans-serif";
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    border-top: solid 1px #cdcdcd;
+    padding: 30px;
+    display: table;
+    width: 100%;
+
+}
+footer dt {
+    font-weight: bold;
+    margin-left: 0;
+}
+
+footer dd {
+margin-left: 0;
+}
+
+#contato{
+     
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "inter", "sans-serif";
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+   
+}
+.logo {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex
+     
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    
+ }
+
+ .nav-list ul {
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   
+ }
+
+ .nav-list li {
+    margin: 40px;
+    justify-content: flex-end;
+ }
+
+ .nav-list a:hover {
+background-color: #11114e;   
+color: white; 
+border-radius: 10px;
+transition: 1s;
+
+ }
+ 
+
+ .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: 400;
+      
+  }
